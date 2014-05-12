@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">bancodedados</string>
+    <string name="hello_world">Olá mundo!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_home">HomeActivity</string>
+    
+    <!-- Labels usados na home activity -->
+    <string name="main_lbl_username">Usuário</string>
+    <string name="main_lbl_nome">Nome</string>
+    <string name="main_lbl_senha">Senha</string>
+    <string name="main_hint_username">Username</string>
+    <string name="main_hint_nome">Nome do usuário</string>
+    <string name="main_hint_senha">Sua senha aqui</string>
+    <string name="main_btn_salvar">SALVAR LOCAL</string>
+    <string name="main_btn_salvar_remoto">SALVAR REMOTO</string>
+    <string name="main_btn_listar">LISTAR TODOS</string>
+    <string name="main_btn_listar_remoto">LISTAR REMOTO</string>
+    
+    <string name="main_progresso_titulo">Usuários</string>
+    <string name="main_progresso_mensagem">Salvando usuário remotamente &#8230;</string>
+    
+    <string name="main_notificacao_campos_vazios">Há campos não preenchidos</string>
+    <string name="main_notificacao_usuario_cadastrado">Registro salvo com sucesso</string>
+    <string name="main_notificacao_usuario_falha_cadastro">Não foi possível salvar o registro</string>
+    
+    <string name="lista_remoto_progresso_titulo">Carregando</string>
+    <string name="lista_remoto_progresso_mensagem">Carregando usuários do servidor &#8230;</string>
+    
+</resources>

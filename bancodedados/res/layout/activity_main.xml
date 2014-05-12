@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.uniararas.posgrad.mobile.bancodedados.MainActivity" >
+
+    <TextView
+        android:id="@+id/main_label_username"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="@string/main_lbl_username" />
+    
+    <EditText
+        android:id="@+id/main_txt_username"
+        android:hint="@string/main_hint_username"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/main_label_username" />
+    
+    <TextView
+        android:id="@+id/main_label_nome"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/main_lbl_nome"
+        android:layout_below="@+id/main_label_username" />
+    
+    <EditText
+        android:id="@+id/main_txt_nome"
+        android:hint="@string/main_hint_nome"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/main_label_nome"
+        android:layout_below="@+id/main_txt_username" />
+    
+    <TextView
+        android:id="@+id/main_label_senha"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/main_lbl_senha"
+        android:layout_below="@+id/main_label_nome" />
+    
+    <EditText
+        android:id="@+id/main_txt_senha"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="@string/main_hint_senha"
+        android:inputType="textPassword"
+        android:layout_below="@+id/main_txt_nome"
+        android:layout_toRightOf="@+id/main_label_senha" />
+    
+    <Button 
+        android:id="@+id/main_btn_salvar"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/main_btn_salvar"
+        android:layout_below="@+id/main_label_senha" />
+    
+    <Button 
+        android:id="@+id/main_btn_listar"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/main_btn_listar"
+        android:layout_below="@+id/main_btn_salvar" />
+    
+    <Button 
+        android:id="@+id/main_btn_salvar_remoto"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/main_btn_salvar_remoto"
+        android:layout_below="@+id/main_btn_listar" />
+    
+    <Button 
+        android:id="@+id/main_btn_listar_remoto"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/main_btn_listar_remoto"
+        android:layout_below="@+id/main_btn_salvar_remoto" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bancodedados</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- Labels usados na home activity -->
+    <string name="main_lbl_username">Username</string>
+    <string name="main_lbl_nome">Name</string>
+    <string name="main_lbl_senha">Password</string>
+    <string name="main_hint_username">Username here</string>
+    <string name="main_hint_nome">Name goes here</string>
+    <string name="main_hint_senha">Password here</string>
+    <string name="main_btn_salvar">SAVE LOCALLY</string>
+    <string name="main_btn_salvar_remoto">SAVE REMOTELY</string>
+    <string name="main_btn_listar">LIST LOCALLY</string>
+    <string name="main_btn_listar_remoto">LIST REMOTELY</string>
+    <string name="main_progresso_titulo">Users</string>
+    <string name="main_progresso_mensagem">Saving user remotely &#8230;</string>
+    <string name="main_notificacao_campos_vazios">There are empty fields</string>
+    <string name="main_notificacao_usuario_cadastrado">User successfully saved</string>
+    <string name="main_notificacao_usuario_falha_cadastro">Could not save this user</string>
+    <string name="title_activity_lista_usuarios_remotos">ListaUsuariosRemotosActivity</string>
+    
+    <string name="lista_remoto_progresso_titulo">Loading</string>
+    <string name="lista_remoto_progresso_mensagem">Loading users from server &#8230;</string>
+
+</resources>
